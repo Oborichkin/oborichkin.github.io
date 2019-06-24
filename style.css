@@ -1,0 +1,70 @@
+html {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+a:link {
+    color: black;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    color: darkgray;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card {
+    text-align: center;
+}
+
+.avatar {
+    width: 250px;
+    border-radius: 50%;
+}
+
+.table {
+    display: table;
+    margin: 0 auto;
+}
+
+.link-list {
+    list-style: none;
+    padding: 0;
+}
+
+.link-list li {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+.vk-link { background-image: url("./img/vk.svg"); }
+.insta-link { background-image: url("./img/instagram.svg"); }
+.in-link { background-image: url("./img/linkedin.svg"); }
+
+.credits {
+    font-size: 0.7em;
+}
+
+/* Reset */
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
